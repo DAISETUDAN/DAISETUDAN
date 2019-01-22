@@ -7,8 +7,8 @@ public class Recipe : MonoBehaviour {
     int recipeNum;
 	// Use this for initialization
 	void Start () {
-		
-	}
+       
+    }
 	
 	// Update is called once per frame
 	void Update () {
