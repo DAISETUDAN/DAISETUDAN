@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/DescriptionScene.unity
     guid: eb8930668af0830449c4da6753595b70
   - enabled: 1
-    path: Assets/koki/Cock.unity
+    path: Assets/Scenes/Cock.unity
     guid: db5d20591e8c38c4dbfd3f88632af3f2
   - enabled: 1
     path: Assets/Scenes/ResultScene.unity
