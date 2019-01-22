@@ -19,7 +19,7 @@ public class LineCollisionTriggerDame : MonoBehaviour {
         //ラインとの当たり判定
         if (other.gameObject.tag == "Line") {
             if (trg) {
-                FindObjectOfType<drawPhysicsLine>().pena++;
+                FindObjectOfType<drawPhysicsLine>().ok = 0;
                 Debug.Log("ダメ");
             }
             trg = false;
