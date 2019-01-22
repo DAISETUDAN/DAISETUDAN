@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+
 public class Recipe : MonoBehaviour {
+
     public Sprite[] recipeFood;
     int recipeNum;
-	// Use this for initialization
+	
+    // Use this for initialization
 	void Start () {
        
     }

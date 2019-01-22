@@ -7,6 +7,8 @@ public class Cock : MonoBehaviour {
     public Sprite [] recipe;
     public bool[] buttonTrg;
 
+    public bool cookTrg = false;
+
     bool recipeTrg;
     public int rdm;
 	// Use this for initialization
@@ -22,7 +24,7 @@ public class Cock : MonoBehaviour {
 	void Update () {
         //料理が出来たらのif文を書く
 
-        if (/*食材三つ切れたら*/Input.GetKeyDown(KeyCode.Space))
+        if (cookTrg)
         {
             for (int i = 0; i < 6; i++)
             {
@@ -30,6 +32,7 @@ public class Cock : MonoBehaviour {
             }
             FindObjectOfType<Count>().scoreNum++;
             recipeTrg = true;
+            cookTrg = false;
         }
 
         if (recipeTrg)
