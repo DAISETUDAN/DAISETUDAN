@@ -17,6 +17,7 @@ public class Cock : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            FindObjectOfType<Count>().scoreNum++;
             recipeTrg = true;
         }
         if (recipeTrg)
