@@ -15,20 +15,4 @@ public class LineCollision : MonoBehaviour {
             Destroy(gameObject);
         }
     }
-
-    private void OnCollisionEnter(Collision other) {
-        //ラインとの当たり判定
-        if (other.gameObject.tag == "Block") {
-
-            FindObjectOfType<drawPhysicsLine>().pena++;
-            Debug.Log("ダメ");
-            Destroy(other.gameObject);
-        }
-
-        if (other.gameObject.tag == "Good") {
-            FindObjectOfType<drawPhysicsLine>().ok++;
-            Debug.Log("いいぞ。");
-            Destroy(other.gameObject);
-        }
-    }
 }
