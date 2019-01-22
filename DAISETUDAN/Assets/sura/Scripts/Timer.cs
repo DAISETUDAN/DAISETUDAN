@@ -21,7 +21,7 @@ public class Timer : MonoBehaviour {
     void Update() {
         timeCounter -= Time.deltaTime;
         if (timeCounter <= 0) {
-            //SceneManager.LoadScene("rGameover");
+            SceneManager.LoadScene("ResultScene");
         }
         //マイナス値にならないようにする
         timeCounter = Mathf.Max(timeCounter , 0.0f);

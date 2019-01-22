@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Description : MonoBehaviour {
+public class ResultScene : MonoBehaviour {
 
     private AudioSource se01;
 
@@ -13,12 +13,11 @@ public class Description : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update ()
-    {
+    void Update() {
         if (Input.GetMouseButtonDown(0)) {
 
             se01.PlayOneShot(se01.clip);
-            SceneManager.LoadScene("Cock");
+            SceneManager.LoadScene("Titlescene");
         }
     }
 }
