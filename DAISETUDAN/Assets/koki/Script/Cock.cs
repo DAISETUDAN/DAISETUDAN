@@ -5,21 +5,33 @@ using UnityEngine.UI;
 
 public class Cock : MonoBehaviour {
     public Sprite [] recipe;
+    public bool[] buttonTrg;
+
     bool recipeTrg;
     public int rdm;
 	// Use this for initialization
 	void Start () {
         recipeTrg = true;
-	}
+        for (int i = 0; i < 6; i++)
+        {
+            buttonTrg[i] = false;
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () {
+        //料理が出来たらのif文を書く
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (/*食材三つ切れたら*/Input.GetKeyDown(KeyCode.Space))
         {
+            for (int i = 0; i < 6; i++)
+            {
+                buttonTrg[i] = false;
+            }
             FindObjectOfType<Count>().scoreNum++;
             recipeTrg = true;
         }
+
         if (recipeTrg)
         {
             rdmRecipe();
