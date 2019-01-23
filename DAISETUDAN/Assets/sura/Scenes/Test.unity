@@ -155,48 +155,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48078d3c3bbefb54db70663764fba37c, type: 2}
   m_IsPrefabAsset: 0
---- !u!1001 &363688692
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4388088317746684, guid: 4369f2ab50486ee4c831728c6ef19f8a, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4388088317746684, guid: 4369f2ab50486ee4c831728c6ef19f8a, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4388088317746684, guid: 4369f2ab50486ee4c831728c6ef19f8a, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4388088317746684, guid: 4369f2ab50486ee4c831728c6ef19f8a, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4388088317746684, guid: 4369f2ab50486ee4c831728c6ef19f8a, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4388088317746684, guid: 4369f2ab50486ee4c831728c6ef19f8a, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4388088317746684, guid: 4369f2ab50486ee4c831728c6ef19f8a, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4388088317746684, guid: 4369f2ab50486ee4c831728c6ef19f8a, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4369f2ab50486ee4c831728c6ef19f8a, type: 2}
-  m_IsPrefabAsset: 0
 --- !u!1001 &1493112428
 Prefab:
   m_ObjectHideFlags: 0
@@ -238,6 +196,52 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1cade9e29b62f242b04bb8c89ec6040, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &1629580603
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4479887141638632, guid: 59646700e497c2a4693b0d69d508aef0, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479887141638632, guid: 59646700e497c2a4693b0d69d508aef0, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479887141638632, guid: 59646700e497c2a4693b0d69d508aef0, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479887141638632, guid: 59646700e497c2a4693b0d69d508aef0, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479887141638632, guid: 59646700e497c2a4693b0d69d508aef0, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479887141638632, guid: 59646700e497c2a4693b0d69d508aef0, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479887141638632, guid: 59646700e497c2a4693b0d69d508aef0, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479887141638632, guid: 59646700e497c2a4693b0d69d508aef0, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092863754317522, guid: 59646700e497c2a4693b0d69d508aef0, type: 2}
+      propertyPath: m_Name
+      value: HarfYASAI
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 59646700e497c2a4693b0d69d508aef0, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &1795696962
 GameObject:
